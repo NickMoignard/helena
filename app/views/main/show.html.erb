@@ -35,7 +35,7 @@
           + minutes + "m " ;
           
           // If the count down is over, write some text 
-          if (distance > 0) {
+          if (distance < 0) {
               clearInterval(x);
               document.getElementById("timer").innerHTML = "Thank You for Watching";
               document.getElementById("iframe").style.visibility = "hidden";
