@@ -36,6 +36,7 @@ a {
 }
 a:hover {
     color: rgb(0,0,255);
+    text-decoration: underline;
 }
 p {
     margin: 1.5em 0;
@@ -90,6 +91,7 @@ input#user_username {
 }
 input#user_username:hover, input#user_username:focus {
     color: rgb(0,0,255);
+    text-decoration: underline;
 }
 input#user_username:focus {
     outline: none;
@@ -107,6 +109,7 @@ input[type='submit'] {
 
 input[type='submit']:hover {
     color: rgb(0,0,255);
+    text-decoration: underline;
 }
 
 #enter a {
