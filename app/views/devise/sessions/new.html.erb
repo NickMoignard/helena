@@ -1,0 +1,26 @@
+<div class="container">
+    <p>Please type in your seat number to proceed</p>
+    <p>After you enter the presentation, your seat number will remain active for the next two hours</p>
+
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+
+  <div class="center">
+    <div class="field">
+      <%= f.text_field :username, placeholder: 'Seat Nº' %>
+    </div>
+
+    <div class="hidden field">
+      <%= f.label :password %><br />
+      <%= f.text_field :password,  value: 'test123' %>
+    </div>
+
+    <div class="actions">
+      <%= f.submit "> Enter" %>
+    </div>
+  </div>
+<% end %>
+</div>
+
+<p class="center notice"><%= notice %></p>
+<p class=" center alert"><%= alert %></p>
+
