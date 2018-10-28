@@ -89,7 +89,12 @@ input#user_username {
     text-align: center;
     width: 20vw;
 }
+
 input#user_username:hover, input#user_username:focus {
+    color: rgb(0,0,255);
+    text-decoration: underline;
+}
+input#user_username::placeholder {
     color: rgb(0,0,255);
     text-decoration: underline;
 }
