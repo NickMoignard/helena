@@ -64,9 +64,17 @@ footer {
 footer a, footer p {
     margin: 0;
     float: left;
-    width: 25%;
+    width: 10vw;
     text-align: center;
+    padding: 0 10vw;
 }
+a.first{ 
+    padding-left: 0;
+}
+ p.last {
+    padding-right: 0;
+}
+
 .hidden {
     display:none;
 }
